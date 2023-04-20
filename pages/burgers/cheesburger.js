@@ -1,9 +1,9 @@
-const Cheesburger = () => {
+const Cheeseburger = () => {
     return (
         <div>
-            <h3>CHEESBURGER PAGE</h3>
+            <h3>CHEESEBURGER PAGE</h3>
         </div>
     )
 }
 
-export default Cheesburger
+export default Cheeseburger
