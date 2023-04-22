@@ -1,0 +1,42 @@
+.mainCmrBlank {
+  width: 672px;
+  height: 1060px;
+  background-color: lightgray;
+  border: solid black 1px;
+  display: grid;
+  grid-template-rows: 36%;
+}
+.mainCmrBlank .f01t05logof16t18 {
+  background-color: lightgray;
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainCmrBlank .f01t05logof16t18 .f01t05 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.mainCmrBlank .f01t05logof16t18 .f01t05 .f01t02 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.mainCmrBlank .f01t05logof16t18 .f01t05 .f01t02 .c02 {
+  border: solid black 1px;
+}
+.mainCmrBlank .f01t05logof16t18 .f01t05 .f03t05 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.mainCmrBlank .f01t05logof16t18 .f01t05 .f03t05 .c04 {
+  border: solid black 1px;
+}
+.mainCmrBlank .f01t05logof16t18 .logof16t18 {
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr 1fr;
+  border: solid black 1px;
+}
+.mainCmrBlank .f01t05logof16t18 .logof16t18 .c16,
+.mainCmrBlank .f01t05logof16t18 .logof16t18 .c17,
+.mainCmrBlank .f01t05logof16t18 .logof16t18 .c18 {
+  border: solid black 1px;
+}/*# sourceMappingURL=Cmr.module.css.map */

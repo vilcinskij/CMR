@@ -1,4 +1,6 @@
-import Link from "next/link"
+import Link from "next/link";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const NotFoundPage = () => {
     return (
@@ -9,4 +11,4 @@ const NotFoundPage = () => {
     )
 }
 
-export default NotFoundPage
+export default NotFoundPage;

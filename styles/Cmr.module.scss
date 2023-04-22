@@ -1,0 +1,53 @@
+.mainCmrBlank {
+    width: 672px;
+    height: 1060px;
+    background-color: lightgray;
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: 36%;
+
+
+
+    .f01t05logof16t18 {
+        background-color: lightgray;
+        border: solid black 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .f01t05 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+
+            .f01t02 {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                .c02 {
+                    border: solid black 1px;
+
+                }
+                
+            }
+            .f03t05 {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                .c04 {
+                    border: solid black 1px;
+
+                }
+            }
+        }
+
+        .logof16t18 {
+            display: grid;
+            grid-template-row: 1fr 1fr 1fr 1fr;
+            border: solid black 1px;
+
+            .c16,
+            .c17,
+            .c18 {
+                border: solid black 1px;
+
+            }
+        }
+    }
+}
