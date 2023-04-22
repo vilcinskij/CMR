@@ -1,58 +1,61 @@
+import Grafa from '@/components/grafa';
 import styles from '../styles/Cmr.module.css';
 
 const Cmr = () => {
     return (
         <div className={styles.mainCmrBlank}>
             <div className={styles.l01_logo}>
-                <div className={styles.b01}>b01</div>
-                <div className={styles.blogo}>blogo</div>
+                <Grafa number='1' />
+                <Grafa number='logo' />
             </div>
             <div className={styles.l02_16}>
-                <div className={styles.b02}>b02</div>
-                <div className={styles.b16}>b16</div>
+                <Grafa number='2' />
+                <Grafa number='16' />
             </div>
             <div className={styles.l03_18}>
                 <div className={styles.b03_05}>
-                    <div className={styles.b03}>b03</div>
-                    <div className={styles.b04}>b04</div>
-                    <div className={styles.b05}>b05</div>
+                    <Grafa number='3' />
+                    <Grafa number='4' />
+                    <Grafa number='5' />
                 </div>
                 <div className={styles.b17_18}>
-                    <div className={styles.b17}>b17</div>
-                    <div className={styles.b18}>b18</div>
+                    <Grafa number='17' />
+                    <Grafa number='18' />
                 </div>
             </div>
             <div className={styles.l06_12}>
-                <div className={styles.b06_09}>b06_09</div>
-                <div className={styles.b10}>b10</div>
-                <div className={styles.b11}>b11</div>
-                <div className={styles.b12}>b12</div>
+                <Grafa number='6-9' />
+                <Grafa number='10' />
+                <Grafa number='11' />
+                <Grafa number='12' />
             </div>
             <div className={styles.l13_19}>
-                <div className={styles.b13}>b13</div>
-                <div className={styles.b19}>b19</div>
+                <Grafa number='13' />
+                <Grafa number='19' />
             </div>
             <div className={styles.l14}>
-                <div className={styles.b14}>b14</div>
+                <Grafa number='14' />
+
             </div>
             <div className={styles.l15_20}>
-                <div className={styles.b15}>b15</div>
-                <div className={styles.b20}>b20</div>
+                <Grafa number='15' />
+                <Grafa number='20' />
             </div>
             <div className={styles.l21_24}>
                 <div className={styles.b21_23}>
-                    <div className={styles.b21}>b21</div>
+                    <Grafa number='21' />
                     <div className={styles.b22_23}>
-                        <div className={styles.b21}>b22</div>
-                        <div className={styles.b21}>b23</div>
+                        <Grafa number='22' />
+                        <Grafa number='23' />
                     </div>
                 </div>
-                <div className={styles.b24}>b24</div>
+                <Grafa number='24' />
+
             </div>
             <div className={styles.l25_27}>
-                <div className={styles.b25}>b25</div>
-                <div className={styles.b26}>b26</div>
-                <div className={styles.b27}>b27</div>
+                <Grafa number='25' />
+                <Grafa number='26' />
+                <Grafa number='27' />
             </div>
             <div className={styles.l28}>L28</div>
             <div className={styles.l29}>L29</div>

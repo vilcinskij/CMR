@@ -1,60 +1,54 @@
+.grafa_border {
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+}
+
 .mainCmrBlank {
     margin: auto;
-    // margin-top: 50px;
     width: 672px;
     height: 1060px;
     background-color: lightgray;
-    border: solid black 1px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
     display: grid;
     grid-template-rows: 96fr 96fr 192fr 212fr 128fr 16fr 48fr 112fr 80fr 48fr 32fr;
 
     .l01_logo {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: solid black 1px;
-
-        .b01,
-        .blogo {
-            border: solid black 1px;
-        }
     }
 
     .l02_16 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: solid black 1px;
-
-        .b02,
-        .b16 {
-            border: solid black 1px;
-        }
     }
 
     .l03_18 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: solid black 1px;
 
         .b03_05 {
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
-            border: solid black 1px;
 
             .b03,
             .b04,
             .b05 {
-                border: solid black 1px;
+                border-bottom: solid black 1px;
+                border-right: solid black 1px;
             }
         }
 
         .b17_18 {
             display: grid;
             grid-template-rows: 1fr 1fr;
-            border: solid black 1px;
 
             .b17,
             .b18 {
-                border: solid black 1px;
+                border-bottom: solid black 1px;
+                border-right: solid black 1px;
             }
         }
     }
@@ -62,91 +56,88 @@
     .l06_12 {
         display: grid;
         grid-template-columns: 30fr 6fr 6fr 6fr;
-        border: solid black 1px;
 
         .b06_09,
         .b10,
         .b11,
         .b12 {
-            border: solid black 1px;
+            border-bottom: solid black 1px;
+            border-right: solid black 1px;
         }
     }
 
     .l13_19 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: solid black 1px;
 
         .b13,
         .b19 {
-            border: solid black 1px;
+            border-bottom: solid black 1px;
+            border-right: solid black 1px;
         }
     }
 
     .l14 {
-        border: solid black 1px;
+        border-bottom: solid black 1px;
+        border-right: solid black 1px;
     }
 
     .l15_20 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: solid black 1px;
 
         .b15,
         .b20 {
-            border: solid black 1px;
+            border-bottom: solid black 1px;
+            border-right: solid black 1px;
         }
     }
 
     .l21_24 {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        border: solid black 1px;
 
         .b21_23 {
-            border: solid black 1px;
             display: grid;
             grid-template-rows: 1fr 6fr;
 
             .b21 {
-                border: solid black 1px;
+                border-bottom: solid black 1px;
+                border-right: solid black 1px;
             }
 
             .b22_23 {
-                border: solid black 1px;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
 
+
                 .b22,
                 .b23 {
-                    border: solid black 1px;
+                    border-bottom: solid black 1px;
+                    border-right: solid black 1px;
                 }
             }
         }
 
         .b24 {
-            border: solid black 1px;
+            border-bottom: solid black 1px;
+            border-right: solid black 1px;
         }
     }
 
     .l25_27 {
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
-        border: solid black 1px;
-
-        .b25,
-        .b26,
-        .b27 {
-            border: solid black 1px;
-        }
     }
 
     .l28 {
-        border: solid black 1px;
+        border-bottom: solid black 1px;
+        border-right: solid black 1px;
     }
 
     .l29 {
-        border: solid black 1px;
+        border-bottom: solid black 1px;
+        border-right: solid black 1px;
     }
 
 }
