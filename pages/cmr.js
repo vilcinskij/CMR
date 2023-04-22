@@ -3,26 +3,10 @@ import styles from '../styles/Cmr.module.css';
 const Cmr = () => {
     return (
         <div className={styles.mainCmrBlank}>
-                <div className={styles.c01}>1</div>
-                <div className={styles.c02}>2</div>
-                <div className={styles.c03}>3</div>
-                <div className={styles.c04}>4</div>
-                <div className={styles.c05}>5</div>
-
-                <div className={styles.logof16t18}>
-                    <div className={styles.logo}>logo</div>
-                    <div className={styles.c16}>16</div>
-                    <div className={styles.c17}>17</div>
-                    <div className={styles.c18}>18</div>
-                </div>
-
-            <div className={styles.description}>
-                <div className={styles.c6_9}>6-9</div>
-                <div className={styles.c10}>10</div>
-                <div className={styles.c11}>11</div>
-                <div className={styles.c12}>12</div>
-
-            </div>
+            <div className={styles.l1_logo}>L1_logo</div>
+            <div className={styles.l2_16}>L2_16</div>
+            <div className={styles.l3_18}>L3_18</div>
+            <div className={styles.l6_12}>L6_12</div>
             <div className={styles.l13_19}>L13_19</div>
             <div className={styles.l14}>L14</div>
             <div className={styles.l15_20}>L15_20</div>

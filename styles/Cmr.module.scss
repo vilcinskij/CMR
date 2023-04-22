@@ -4,61 +4,7 @@
     background-color: lightgray;
     border: solid black 1px;
     display: grid;
-    grid-template-rows: 384fr 212fr 476fr;
+    grid-template-rows: 96fr 96fr 192fr 212fr 128fr 16fr 48fr 112fr 80fr 48fr 32fr;
 
 
-
-    .f01t05logof16t18 {
-        background-color: lightgray;
-        border: solid black 1px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        .f01t05 {
-            display: grid;
-            grid-template-rows: 6fr 6fr 4fr 4fr 4fr;
-
-            .c01,
-            .c02,
-            .c03,
-            .c04,
-            .c05 {
-                border: solid black 1px;
-
-            }
-
-        }
-
-        .logof16t18 {
-            display: grid;
-            grid-template-row: 1fr 1fr 1fr 1fr;
-            border: solid black 1px;
-
-            .c16,
-            .c17,
-            .c18 {
-                border: solid black 1px;
-
-            }
-        }
-    }
-
-    .description {
-        display: grid;
-        grid-template-columns: 26fr 6fr 6fr 6fr;
-        border: solid black 1px;
-
-
-        .c6_9,
-        .c10,
-        .c11,
-        .c12 {
-            border: solid black 1px;
-
-        }
-
-
-    }
-
-    .footer {}
 }
