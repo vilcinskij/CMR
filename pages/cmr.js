@@ -34,8 +34,7 @@ const Cmr = () => {
                 <Grafa number='19' />
             </div>
             <div className={styles.l14}>
-                <Grafa number='14' />
-
+                <div className={styles.grafa_border}>14</div>
             </div>
             <div className={styles.l15_20}>
                 <Grafa number='15' />
@@ -43,7 +42,8 @@ const Cmr = () => {
             </div>
             <div className={styles.l21_24}>
                 <div className={styles.b21_23}>
-                    <Grafa number='21' />
+                    {/* <Grafa number='21' /> */}
+                    <div className={styles.grafa_border}>21</div>
                     <div className={styles.b22_23}>
                         <Grafa number='22' />
                         <Grafa number='23' />
