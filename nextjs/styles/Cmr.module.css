@@ -3,8 +3,13 @@
   border-right: solid black 1px;
 }
 
-.grafa_description {
+.grafa_title {
   font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 23fr;
+}
+.grafa_title .grafa_description {
+  font-size: 10px;
 }
 
 .grafa_input {
@@ -22,6 +27,18 @@
 
 .grafa_input {
   margin-left: 10px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+.input {
+  border: none;
+}
+
+.input:hover {
+  background-color: lightgray;
 }
 
 .mainCmrBlank {
@@ -50,6 +67,10 @@
 .mainCmrBlank .l03_18 .b03_05 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+}
+.mainCmrBlank .l03_18 .b03_05 .grafa4_form {
+  display: grid;
+  grid-template-columns: 3fr 21fr;
 }
 .mainCmrBlank .l03_18 .b17_18 {
   display: grid;

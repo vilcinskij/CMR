@@ -1,5 +1,6 @@
 import Grafa from '@/components/grafa';
 import styles from '../styles/Cmr.module.css';
+import Grafa4 from '@/components/grafos/grafa4';
 
 const Cmr = () => {
     return (
@@ -15,7 +16,7 @@ const Cmr = () => {
             <div className={styles.l03_18}>
                 <div className={styles.b03_05}>
                     <Grafa number='3' />
-                    <Grafa number='4' />
+                    <Grafa4/>
                     <Grafa number='5' />
                 </div>
                 <div className={styles.b17_18}>
