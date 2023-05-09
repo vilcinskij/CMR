@@ -51,6 +51,16 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
+.mainCmrBlank .l03_18 .b03_05 .grafa4_input {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 60px;
+}
+.mainCmrBlank .l03_18 .b03_05 .grafa4_input .grafa4 {
+  resize: none;
+  overflow: hidden;
+  border: none;
+}
 .mainCmrBlank .l03_18 .b17_18 {
   display: grid;
   grid-template-rows: 1fr 1fr;

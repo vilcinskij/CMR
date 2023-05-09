@@ -53,6 +53,18 @@
         .b03_05 {
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
+            .grafa4_input {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                height: 60px;
+
+                .grafa4 {
+                    resize: none;
+                    overflow: hidden;
+                    border: none;
+
+                }
+            }
         }
 
         .b17_18 {
