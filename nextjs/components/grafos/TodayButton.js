@@ -1,12 +1,13 @@
-export default function TodayButton() {
+import React, { useEffect } from "react";
 
-    function consLog() {
-        console.log('LABAS');
-    }
+function TodayButton() {
 
     return (
         <>
-            <button onClick={consLog} >TODAY</button>
+            <button
+            // onClick={useEffect} 
+            >TODAY</button>
         </>
     )
 }
+export default TodayButton
