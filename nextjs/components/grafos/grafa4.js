@@ -8,7 +8,7 @@ export default function Grafa4({ number, title }) {
                 <span className={styles.grafa_description}>Place and date of taking over the goods</span> </div>
             <div className={styles.grafa4_form}>
                 <label className={styles.label}>Place</label><input className={styles.input}></input>
-                <label className={styles.label}>Country</label>
+                <label className={styles.label}>Counretry</label>
                 <input 
                 className={styles.input}
                 id='load-country'
