@@ -12,7 +12,7 @@ export default function Grafa4({ number, title }) {
                 <input 
                 className={styles.input}
                 id='load-country'
-                defaultValue="KZZZ">
+                defaultValue="KZ">
                     
 
                 </input>
