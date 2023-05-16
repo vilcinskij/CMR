@@ -16,7 +16,7 @@ const Cmr = () => {
             <div className={styles.l03_18}>
                 <div className={styles.b03_05}>
                     <Grafa number='3' />
-                    <Grafa4/>
+                    <Grafa4 country='KZZZ'/>
                     <Grafa number='5' />
                 </div>
                 <div className={styles.b17_18}>

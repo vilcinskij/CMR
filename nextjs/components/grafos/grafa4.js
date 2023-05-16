@@ -1,6 +1,6 @@
 import styles from '../../styles/Cmr.module.css'
 
-export default function Grafa4({ number, title }) {
+export default function Grafa4({ number, title, country }) {
     return (
         <div className={styles.grafa_border}>
             <div className={styles.grafa_title}>
@@ -12,7 +12,7 @@ export default function Grafa4({ number, title }) {
                 <input 
                 className={styles.input}
                 id='load-country'
-                defaultValue="KZ">
+                defaultValue={country}>
                     
 
                 </input>

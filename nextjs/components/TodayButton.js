@@ -4,8 +4,7 @@ function TodayButton() {
 
     return (
         <>
-            <button
-            >TODAY</button>
+            <button>TODAY</button>
         </>
     )
 }
