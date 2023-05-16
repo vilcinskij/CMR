@@ -1,10 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 function TodayButton() {
 
+    const [text, setText] = useState('BABAS');
+
+    function clickHandler() {
+        console.log(text);
+        setText('LOOOBAS')
+
+    }
+
     return (
         <>
-            <button onClick={()=>{console.log('CLICl  ');}}>TODAY</button>
+            <button onClick={clickHandler}>TODAY</button>
         </>
     )
 }
