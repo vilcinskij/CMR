@@ -4,7 +4,7 @@ function TodayButton() {
 
     return (
         <>
-            <button>TODAY</button>
+            <button onClick={()=>{console.log('CLICl  ');}}>TODAY</button>
         </>
     )
 }
