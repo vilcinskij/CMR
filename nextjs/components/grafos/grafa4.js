@@ -5,11 +5,16 @@ export default function Grafa4({ number, title, country }) {
 
 
 
-    const [text, setText] = useState();
+    const [num, setNum] = useState(0);
+    const [date, setDate] = useState()
 
     function clickHandler() {
-        setText('LOOOBAS')
-        console.log(text);
+        setNum(num + 1);
+        let today = new Date()
+        let day = ("0" + today.getDate()).slice(-2);
+        let month = ("0" + (today.getMonth() + 1)).slice(-2);
+        let year = today.getFullYear()
+        setDate(`${year}-${month}-${day}`)
 
     }
 
@@ -24,11 +29,11 @@ export default function Grafa4({ number, title, country }) {
             </div>
             <div className={styles.grafa4_form}>
                 <label className={styles.label}>Place</label><input className={styles.input}></input>
-                <label className={styles.label}>{text}</label>
+                <label className={styles.label}>Country</label>
                 <input
                     className={styles.input}
                     id='load-country'
-                    defaultValue={text}>
+                    defaultValue={num}>
 
 
                 </input>
@@ -36,7 +41,10 @@ export default function Grafa4({ number, title, country }) {
                 <input
                     className={styles.input}
                     type='date'
-                    id='load-date'>
+                    id='load-date'
+                    defaultValue={date}
+
+                >
                 </input>
             </div>
         </div>
