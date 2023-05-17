@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 function TodayButton() {
 
-    const [text, setText] = useState('BABAS');
+    const [text, setText] = useState();
 
     function clickHandler() {
-        console.log(text);
         setText('LOOOBAS')
+        console.log(text);
 
     }
 
