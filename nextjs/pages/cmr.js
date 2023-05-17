@@ -1,10 +1,25 @@
 import Grafa from '@/components/grafa';
 import styles from '../styles/Cmr.module.css';
 import Grafa4 from '@/components/grafos/grafa4';
+import { useState } from 'react';
 
 const Cmr = () => {
+
+    const [num, setNum] = useState(0);
+    const [date, setDate] = useState()
+
+    function clickHandler() {
+        setNum(num + 1);
+        let today = new Date()
+        let day = ("0" + today.getDate()).slice(-2);
+        let month = ("0" + (today.getMonth() + 1)).slice(-2);
+        let year = today.getFullYear()
+        setDate(`${year}-${month}-${day}`)
+    }
+
     return (
         <div className={styles.mainCmrBlank}>
+            <button onClick={clickHandler}>TODAY</button>
             <div className={styles.l01_logo}>
                 <Grafa number='1' />
                 <Grafa number='logo' />
@@ -16,7 +31,7 @@ const Cmr = () => {
             <div className={styles.l03_18}>
                 <div className={styles.b03_05}>
                     <Grafa number='3' />
-                    <Grafa4 country='KZZZ'/>
+                    <Grafa4 country='KZZZ' date={date}/>
                     <Grafa number='5' />
                 </div>
                 <div className={styles.b17_18}>

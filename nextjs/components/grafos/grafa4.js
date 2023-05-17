@@ -1,22 +1,20 @@
 import styles from '../../styles/Cmr.module.css'
 import { useState } from 'react'
 
-export default function Grafa4({ number, title, country }) {
+export default function Grafa4({ date, title, country }) {
 
+    // const [num, setNum] = useState(0);
+    // const [date, setDate] = useState()
 
+    // function clickHandler() {
+    //     setNum(num + 1);
+    //     let today = new Date()
+    //     let day = ("0" + today.getDate()).slice(-2);
+    //     let month = ("0" + (today.getMonth() + 1)).slice(-2);
+    //     let year = today.getFullYear()
+    //     setDate(`${year}-${month}-${day}`)
 
-    const [num, setNum] = useState(0);
-    const [date, setDate] = useState()
-
-    function clickHandler() {
-        setNum(num + 1);
-        let today = new Date()
-        let day = ("0" + today.getDate()).slice(-2);
-        let month = ("0" + (today.getMonth() + 1)).slice(-2);
-        let year = today.getFullYear()
-        setDate(`${year}-${month}-${day}`)
-
-    }
+    // }
 
     return (
         <div className={styles.grafa_border}>
@@ -24,7 +22,7 @@ export default function Grafa4({ number, title, country }) {
                 <span className={styles.grafa_number}>4</span>
                 <span className={styles.grafa_description}>Place and date of taking over the goods</span>
 
-                <button onClick={clickHandler}>TODAY</button>
+                {/* <button onClick={clickHandler}>TODAY</button> */}
 
             </div>
             <div className={styles.grafa4_form}>
@@ -33,7 +31,8 @@ export default function Grafa4({ number, title, country }) {
                 <input
                     className={styles.input}
                     id='load-country'
-                    defaultValue={num}>
+                    // defaultValue={num}
+                    >
 
 
                 </input>
