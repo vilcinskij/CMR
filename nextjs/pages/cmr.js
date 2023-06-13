@@ -10,8 +10,6 @@ const Cmr = () => {
 
     function clickHandler() {
         setNum(num + 1);
-
-        
         let today = new Date()
         let day = ("0" + today.getDate()).slice(-2);
         let month = ("0" + (today.getMonth() + 1)).slice(-2);
