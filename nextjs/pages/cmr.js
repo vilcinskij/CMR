@@ -17,9 +17,6 @@ const Cmr = () => {
         setDate(`${year}-${month}-${day}`)
     }
     
-
-
-
     
     return (
         <div className={styles.mainCmrBlank}>
