@@ -16,6 +16,9 @@ const Cmr = () => {
         let year = today.getFullYear()
         setDate(`${year}-${month}-${day}`)
     }
+
+
+    
     
     return (
         <div className={styles.mainCmrBlank}>
