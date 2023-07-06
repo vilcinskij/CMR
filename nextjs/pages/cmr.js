@@ -17,11 +17,6 @@ const Cmr = () => {
         setDate(`${year}-${month}-${day}`)
     }
 
-
-
-    
-    
-    
     return (
         <div className={styles.mainCmrBlank}>
             <button onClick={clickHandler}>TODAY</button>
