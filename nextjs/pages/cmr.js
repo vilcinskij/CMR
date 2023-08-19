@@ -15,7 +15,9 @@ const Cmr = () => {
         let month = ("0" + (today.getMonth() + 1)).slice(-2);
         let year = today.getFullYear()
         setDate(`${year}-${month}-${day}`)
-    }   
+    }  
+
+
 
 
     
