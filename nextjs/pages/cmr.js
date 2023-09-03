@@ -18,8 +18,6 @@ const Cmr = () => {
     }  
 
 
-
-    
     return (
         <div className={styles.mainCmrBlank}>
             <button onClick={clickHandler}>TODAY</button>
